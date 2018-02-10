@@ -1,0 +1,22 @@
+{
+  "name": "datapipelines-typescript",
+  "version": "3.0.0",
+  "description": "",
+  "scripts": {
+    "build": "npm-run-all build:*",
+    "build:ts": "tsc",
+    "lint": "npm-run-all lint:*",
+    "lint:app": "tslint --format verbose 'src/**/*.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npm-run-all --parallel watch:*",
+    "watch:tsc": "tsc -w"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.14.12",
+    "npm-run-all": "^4.1.2",
+    "tslint": "^5.9.1",
+    "typescript": "^2.7.1"
+  },
+  "dependencies": {}
+}
