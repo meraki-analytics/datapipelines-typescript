@@ -20,7 +20,5 @@
     "tslint": "^5.9.1",
     "typescript": "^2.7.1"
   },
-  "dependencies": {
-    "dijkstrajs": "^1.0.1"
-  }
+  "dependencies": {}
 }
